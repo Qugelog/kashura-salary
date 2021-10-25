@@ -224,6 +224,12 @@
     <Compile Include="DAL\SQLiteHelper.cs" />
     <Compile Include="DAL\User.cs" />
     <Compile Include="Database.cs" />
+    <Compile Include="Forms\PreloaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PreloaderForm.Designer.cs">
+      <DependentUpon>PreloaderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -242,11 +248,29 @@
     <Compile Include="Forms\RolesForm.Designer.cs">
       <DependentUpon>RolesForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Roles\AddRoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Roles\AddRoleForm.Designer.cs">
+      <DependentUpon>AddRoleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roles\EditRoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Roles\EditRoleForm.Designer.cs">
+      <DependentUpon>EditRoleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UsersForms.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\UsersForms.Designer.cs">
       <DependentUpon>UsersForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users\AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users\AddUserForm.Designer.cs">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -256,6 +280,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\PreloaderForm.resx">
+      <DependentUpon>PreloaderForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -265,8 +292,17 @@
     <EmbeddedResource Include="Forms\RolesForm.resx">
       <DependentUpon>RolesForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roles\AddRoleForm.resx">
+      <DependentUpon>AddRoleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roles\EditRoleForm.resx">
+      <DependentUpon>EditRoleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\UsersForms.resx">
       <DependentUpon>UsersForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users\AddUserForm.resx">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

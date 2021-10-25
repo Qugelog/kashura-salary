@@ -74,7 +74,7 @@ namespace Salary.Forms
             }
             else
             {
-                MessageBox.Show("Неверный логин или пароль!", "Неверный логин или пароль", MessageBoxButtons.RetryCancel, MessageBoxIcon.Information);
+                MessageBox.Show("Неверный логин или пароль!", "Неверный логин или пароль", MessageBoxButtons.RetryCancel, MessageBoxIcon.Warning);
             }
         }
 

@@ -112,6 +112,8 @@ namespace Salary.Forms
             if(cmd.ExecuteNonQuery() == 1)
             {
                 MessageBox.Show("Успешная регистрация!");
+                Hide();
+                new MainForm().ShowDialog();
             } 
             else
             {
